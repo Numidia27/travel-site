@@ -2,9 +2,8 @@
   "name": "travel-site",
   "version": "1.0.0",
   "description": "travel site",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,7 +11,7 @@
     "url": "git+https://github.com/kahinaca/travel-site.git"
   },
   "keywords": [],
-  "author": "kahina chelli",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kahinaca/travel-site/issues"
@@ -21,16 +20,5 @@
   "dependencies": {
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.1",
-    "css-loader": "^5.0.1",
-    "postcss-import": "^14.0.0",
-    "postcss-loader": "^4.1.0",
-    "postcss-nested": "^5.0.3",
-    "postcss-simple-vars": "^6.0.2",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.12.2",
-    "webpack-cli": "^4.3.1"
   }
 }
