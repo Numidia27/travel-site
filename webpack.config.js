@@ -17,7 +17,7 @@ module.exports = {
     before: function (app, server) {
       server._watch('./app/**/*.html')
     },
-    contentDase: path.join(__dirname, 'app'),
+    contentBase: path.join(__dirname, 'app'),
     hot: true,
     port: 3000,
     host: '0.0.0.0'
@@ -27,8 +27,8 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        /*use: ['style-loader', 'css-loader?url=false', { loader: 'postcss-loader', options: { postcssOptions: { plugins: postCSSPlugins } } }]*/
-        use: ['style-loader', 'css-loader?url=false', { loader: 'postcss-loader', options: { plugins: postCSSPlugins } }]
+        use: ['style-loader', 'css-loader?url=false', { loader: "postcss-loader", options: { postcssOptions: { plugins: postCSSPlugins } } }]
+
       }
     ]
   }
